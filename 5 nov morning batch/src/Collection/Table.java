@@ -13,6 +13,7 @@ public class Table {
     table.put(24, "Pune");
     table.put(78, "Hyderabad");
     table.put(23, "Noida");
+    table.put(24, "Banglore");  // manager did change	
     
     for(Map.Entry<Integer, String> f :table.entrySet()) {
     	System.out.println("Key"+ f.getKey()+ " Value "+f.getValue());
